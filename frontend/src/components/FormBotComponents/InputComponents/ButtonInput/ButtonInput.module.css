@@ -1,0 +1,35 @@
+.btnWrapper {
+  align-self: flex-end;
+}
+
+.btnWrapper .btn {
+  outline: none;
+  border: none;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 6px;
+  background-color: #1a5fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.43px;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.disabled {
+  outline: none;
+  border: none;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 6px;
+  background-color: #ff8e21;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.43px;
+  text-align: left;
+  color: #ffffff;
+  cursor: default;
+}

@@ -1,0 +1,23 @@
+.form {
+  height: 270px;
+  background-color: #8b8b8d;
+  padding: 80.2px 41.4px;
+  border-radius: 6px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.form div {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+}

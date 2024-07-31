@@ -1,0 +1,13 @@
+.botLogo {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-self: flex-end;
+}
+
+.botLogo img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}

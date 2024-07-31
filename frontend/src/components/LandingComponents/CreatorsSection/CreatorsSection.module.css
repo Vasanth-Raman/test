@@ -1,0 +1,38 @@
+.sectionWrapper {
+  background: linear-gradient(180deg, #171923 0%, #1a202c 100%);
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.mainContainer {
+  padding: 0px 16px 128px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  max-width: 80rem;
+}
+
+.mainContainer h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffffeb;
+}
+
+.imagesContainer {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 3rem;
+  align-items: center;
+  font-size: 2.25rem;
+  color: #a0aec0;
+}
+
+.imagesContainer img {
+  height: 36px;
+  width: 240.46px;
+}

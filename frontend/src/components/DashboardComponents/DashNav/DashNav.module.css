@@ -1,0 +1,82 @@
+.navWrapper {
+  height: 65px;
+  width: 100%;
+  padding: 0px 220px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #3d3d3f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #18181b;
+}
+
+.border {
+  outline: none;
+  border-radius: 6px;
+  top: 16px;
+  left: 50%;
+  transform: translate(-50%);
+  position: relative;
+  min-width: 200px;
+  max-width: 305px;
+  border: 1px solid #ffffff29;
+  background-color: #18181b;
+  z-index: 100;
+}
+
+.content {
+  width: 100%;
+  font-family: " Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffffeb;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.fixed {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 9px;
+  /* border-bottom: 1px solid #3d3d3f; */
+  cursor: pointer;
+}
+
+.dropOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dropOptions div {
+  display: flex;
+  align-items: center;
+  padding: 0px 9px 15px 9px;
+  border-bottom: 1px solid #3d3d3f;
+}
+
+.dropOptions button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: " Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffa54c;
+  cursor: pointer;
+}
+
+.settings {
+  padding-top: 1px;
+  border-top: 1px solid #3d3d3f;
+}

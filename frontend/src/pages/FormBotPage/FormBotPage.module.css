@@ -1,0 +1,37 @@
+.formBotWrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.chatContainer {
+  padding: 80px 50px;
+  width: 1000px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.bubbleContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .formBotWrapper {
+    min-height: 100vh;
+    min-width: 100vw;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+
+  .chatContainer {
+    padding: 5px 8px;
+    width: 400px;
+    gap: 15px;
+  }
+}

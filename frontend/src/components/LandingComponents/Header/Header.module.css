@@ -1,0 +1,59 @@
+.headerContainer {
+  background-color: #171923;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 80px;
+  padding: 16px 32px;
+}
+
+.leftHeader {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.leftHeader img {
+  width: 35px;
+  height: 35px;
+}
+
+.leftHeader p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 21.6px;
+}
+
+.rightHeader {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.rightHeader a {
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+}
+
+.signInLink {
+  padding: 9.05px 16px 9.75px;
+  outline: none;
+  border: 1px solid #7ea6ff;
+  color: #7ea6ff;
+}
+
+.signUpLink {
+  padding: 10.05px 17px 10.75px;
+  background-color: #1a5fff;
+  box-shadow: 0px 1px 0px 0px #ffffff33 inset;
+}

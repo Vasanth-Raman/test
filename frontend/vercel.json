@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/form-bot/:formId",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/workspace/flow/:formId",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/workspace/theme/:formId",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/workspace/response/:formId",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/dashboard/(.*)",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/auth/(.*)",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}

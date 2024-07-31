@@ -1,0 +1,103 @@
+.platformContainer {
+  padding: 208px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.imageSection {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  position: relative;
+}
+
+.topImages {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 64px;
+}
+
+.imageContainer {
+  width: 120px;
+  height: 120px;
+  padding: 32px;
+  background-color: #1a202c;
+  border: 1px solid #ffffff29;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer img {
+  height: 54px;
+  width: 53px;
+}
+
+.bottomImages {
+  padding-left: 80px;
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+  gap: 64px;
+}
+
+.bottomImages .imageContainer img {
+  height: 54px;
+  width: 54px;
+}
+
+.textSection {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0px 16px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  gap: 8px;
+}
+
+.textSection h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  text-align: left;
+  color: #ffffffeb;
+}
+
+.textSection p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #a0aec0;
+  max-width: 700px;
+}
+
+/* -----------------------------PSEUDO ELEMENT FOR FADE EFFECT----------------------------- */
+
+.imageSection::before {
+  content: "";
+  width: 462px;
+  height: 288px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #171923 0%, rgba(23, 25, 35, 0) 100%);
+}
+
+.imageSection::after {
+  content: "";
+  width: 462px;
+  height: 288px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(270deg, #171923 0%, rgba(23, 25, 35, 0) 100%);
+}

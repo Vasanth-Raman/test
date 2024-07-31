@@ -1,0 +1,36 @@
+.navWrapper {
+  height: 65px;
+  padding-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  min-width: 200px;
+  max-width: 305px;
+  border: 1px solid #ffffff29;
+  padding: 8px 9px;
+  border-radius: 6px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffffeb;
+  overflow: auto;
+  position: relative;
+}
+
+.fixed {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.dropOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

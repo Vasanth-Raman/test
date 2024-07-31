@@ -1,0 +1,70 @@
+.errorPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f23;
+  font-family: "Outfit", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.yellow {
+  position: absolute;
+  left: 0;
+  bottom: -5%;
+}
+
+.blue {
+  position: absolute;
+}
+
+.content {
+  width: 60%;
+  position: relative;
+}
+
+.catContainer {
+  position: absolute;
+  bottom: -10px;
+  right: -120px;
+}
+
+.content img {
+  width: 220px;
+
+  /* z-index: ; */
+}
+
+.content h2 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffffeb;
+  padding-top: 20px;
+}
+
+.content p a {
+  color: #1a5fff;
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: dashed underline;
+  text-underline-offset: 4px;
+}
+
+.content p span {
+  color: yellow;
+  font-weight: 600;
+  font-size: 30px;
+}

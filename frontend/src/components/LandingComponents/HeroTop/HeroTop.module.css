@@ -1,0 +1,100 @@
+.heroTop {
+  color: white;
+  padding-top: 80px;
+  padding-left: 220px;
+  padding-right: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  position: relative;
+}
+
+.heroTop h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 1000px;
+  padding: 0px 94.91px 0px 94.91px;
+  text-align: center;
+  background: linear-gradient(90deg, #4b83ff 0%, #b794f4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroTop p {
+  padding: 0px 14.43px 0px 14.42px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 800px;
+  text-align: center;
+  color: #ffffffeb;
+}
+
+.heroBtn {
+  padding: 21.15px 32px 21.25px 32px;
+  background: #1a5fff;
+  box-shadow: 0px 1px 0px 0px #ffffff33 inset;
+  border-radius: 6px;
+}
+
+.heroBtn a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: left;
+  outline: 2px solid transparent;
+}
+
+.leftShape {
+  position: absolute;
+  left: -35px;
+  top: 14px;
+  animation: float 5s ease-in-out infinite;
+}
+
+.rightShape {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  animation: float 5s ease-in-out infinite;
+}
+
+.leftShape img {
+  width: 100%;
+  height: 100%;
+}
+
+.rightShape img {
+  width: 300px;
+  height: 350px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1200px) {
+  .leftShape img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .rightShape img {
+    width: 260px;
+    height: 310px;
+  }
+}

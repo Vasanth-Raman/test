@@ -1,0 +1,80 @@
+.cardContainer {
+  width: 100%;
+  background-color: #18181b;
+  border-radius: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+  padding: 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.input {
+  height: 45px;
+  /* border: 1px solid #f55050; */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #1f1f23;
+  padding-left: 10px;
+}
+
+.input img {
+  height: 20px;
+  width: 20px;
+}
+
+.input input {
+  padding: 0 15px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.input input::placeholder {
+  color: #84848454;
+}
+
+.errorMsg {
+  font-family: "Poppins", sans-serif;
+  font-size: 10.43px;
+  font-weight: 500;
+  line-height: 15.65px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #522224;
+}
+
+.deleteIcon {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #444444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.deleteIcon img {
+  width: 16px;
+  height: 16px;
+}

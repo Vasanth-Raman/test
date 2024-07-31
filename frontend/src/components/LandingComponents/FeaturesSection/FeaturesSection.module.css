@@ -1,0 +1,43 @@
+.featureWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.featureConatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 208px 136px 0px 136px;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px 262.5px;
+}
+
+.paragraph h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  text-align: center;
+  color: #ffffffeb;
+}
+
+.paragraph p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #718096;
+}
+
+.cards {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem;
+}

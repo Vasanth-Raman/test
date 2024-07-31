@@ -1,0 +1,79 @@
+.sidebarWrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #18181b;
+  border-radius: 8px;
+  font-family: "Open Sans", sans-serif;
+  padding: 40px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid #ffffff29;
+  box-shadow: 0px 10px 10px -5px #0000000a, 0px 20px 25px -5px #0000001a;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.sidebarWrapper::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.sidebarWrapper::-webkit-scrollbar-track {
+  background: #2a2a2d;
+  border-radius: 10px;
+}
+
+.sidebarWrapper::-webkit-scrollbar-thumb {
+  background: #4a4a4d;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bubbleContainer,
+.inputContainer {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffffeb;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.singleButton {
+  height: 39px;
+  /* width: 149px; */
+  display: inline-flex;
+  flex: 1 1 0%;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 17px;
+  border-radius: 8px;
+  background-color: #1f1f23;
+  cursor: pointer;
+  border: 1px solid #27272a;
+}
+
+.singleButton:hover {
+  background-color: #4a4a4d;
+}
+
+.singleButton img {
+  width: 16px;
+  height: 16px;
+}
+
+.singleButton p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.buttonsGrid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(2, minmax(149px, 1fr));
+}

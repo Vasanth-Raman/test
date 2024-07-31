@@ -1,0 +1,128 @@
+.resultWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0px 120px;
+}
+
+.resultContainer {
+  padding: 208px 16px 0px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.topPart {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.topPart h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  color: #ffffffeb;
+}
+
+.topPart p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #a0aec0;
+  max-width: 1000px;
+}
+
+.topPart p span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.bottomPart {
+  padding: 1px;
+  border: 1px solid #ffffff29;
+  border-radius: 6px;
+  background-color: #171923;
+  max-width: 571.5px;
+}
+
+.bottomInner {
+  padding: 40px 20px 281px 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.top {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.topLeft img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.topRight {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.textBg {
+  display: inline;
+}
+
+.topRight p {
+  display: inline-block;
+  background-color: #1e293b;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.down {
+  position: relative;
+}
+
+.down button {
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  box-shadow: 0px 1px 0px 0px #ffffff33 inset;
+  padding: 9px 17px;
+  border-radius: 6px;
+  background-color: #1a5fff;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  outline: 2px solid transparent;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-color: #1a5fff;
+  border-radius: 9999px;
+  top: -5px;
+  right: -5px;
+}

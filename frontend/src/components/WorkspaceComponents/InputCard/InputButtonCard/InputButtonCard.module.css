@@ -1,0 +1,65 @@
+.btnContainer {
+  width: 100%;
+  background-color: #18181b;
+  border-radius: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+  padding: 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.btnContainer input {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #1f1f23;
+  padding: 0 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.btnContainer input::placeholder {
+  color: #c0c0c04f;
+}
+
+.deleteIcon {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #444444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.deleteIcon img {
+  width: 16px;
+  height: 16px;
+}
+
+.btnContainer small {
+  font-family: "Poppins", sans-serif;
+  font-size: 10.43px;
+  font-weight: 500;
+  line-height: 15.65px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #522224;
+}

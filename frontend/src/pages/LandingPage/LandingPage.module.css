@@ -1,0 +1,20 @@
+.landingPage {
+  background-color: #171923;
+  overflow: scroll;
+}
+
+.landingPage::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.landingPage::-webkit-scrollbar-track {
+  background: #2a2a2d;
+  border-radius: 10px;
+}
+
+.landingPage::-webkit-scrollbar-thumb {
+  background: #4a4a4d;
+  border-radius: 10px;
+  cursor: pointer;
+}

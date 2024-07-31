@@ -1,0 +1,212 @@
+.dateInput {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Open sans", sans-serif;
+  align-self: flex-end;
+}
+
+.calendar {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 6px;
+  overflow: hidden;
+  height: 265px;
+  width: 230px;
+  padding: 10px;
+}
+
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.leftHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.yearArrow {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.rightHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.monthArrow {
+  width: 1.3rem;
+  height: 1.3rem;
+  cursor: pointer;
+}
+
+.monthYear {
+  flex: 1;
+  text-align: center;
+}
+
+.calendarDays {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(20px, 30px));
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #d0d0d1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.calendarDates {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(20px, 30px));
+  text-align: center;
+}
+
+.empty {
+  padding: 5px;
+}
+
+.date {
+  font-size: large;
+  font-weight: 600;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.date:hover {
+  background-color: #eee;
+}
+
+.selected {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.inputContainer .input {
+  outline: none;
+  border: none;
+  height: 61px;
+  width: 331px;
+  box-shadow: 0px 4px 6.3px 0px #00000040;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.43px;
+  text-align: left;
+  color: #040404;
+  padding: 15px;
+}
+
+.inputContainer input:focus {
+  border: 2px solid #007bff;
+}
+
+.arrowImg {
+  height: 61px;
+  width: 62px;
+  border-radius: 5px;
+  background-color: #1a5fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 1s forwards;
+}
+
+.arrowImg:hover {
+  transform: scale(1.05);
+}
+
+.disabledArrow {
+  height: 61px;
+  width: 62px;
+  border-radius: 5px;
+  background-color: #777777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.arrowImg img {
+  height: 38px;
+  width: 38px;
+}
+
+.inputContainer .input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.43px;
+  text-align: left;
+  color: #847f7f;
+  padding: 15px;
+}
+
+.disabled {
+  background-color: #777777;
+  outline: none;
+  border: none;
+  height: 61px;
+  width: 331px;
+  box-shadow: 0px 4px 6.3px 0px #00000040;
+  border-radius: 4px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.43px;
+  text-align: left;
+  color: #ffffff;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .inputContainer {
+    display: flex;
+    gap: 10px;
+  }
+
+  .inputContainer .input {
+    height: 50px;
+    width: 100%;
+  }
+
+  .arrowImg {
+    height: 50px;
+    width: 75px;
+  }
+
+  .disabledArrow {
+    height: 50px;
+    width: 75px;
+  }
+
+  .arrowImg img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .disabled {
+    height: 50px;
+    width: 100%;
+  }
+}
