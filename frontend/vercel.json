@@ -9,31 +9,7 @@
       }
     }
   ],
-  "routes": [
-    {
-      "src": "/form-bot/:formId",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/workspace/flow/:formId",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/workspace/theme/:formId",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/workspace/response/:formId",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/dashboard/(.*)",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/auth/(.*)",
-      "dest": "/index.html"
-    },
+  "rewrites":
     {
       "src": "/(.*)",
       "dest": "/index.html"
